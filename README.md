@@ -1,15 +1,15 @@
 # pebblePairToWT12
 Wixel code to handle the initial pairing between the BlueGiga WT12 and a pebble watch
-
+<br><br>
 Modified version of a standard program wireless_serial.c.
 This is much easier then the arduino method that uses the RN-41 for bluetooth.
+<BR><BR>
+Beware, when you bring up the serial term, you should see some text from the WT12, if it's unresponsive, power cycle the device and try again. <br>
+Sometimes it takes a couple of tries.<br>
+<br>
+This works on all Pebble watches.<br>
 
-Beware, when you bring up the serial term, you should see some text from the WT12, if it's unresponsive, power cycle the device and try again. 
-Sometimes it takes a couple of tries.
-
-This works on all Pebble watches.
-
-If you do this:
+If you do this:<br>
 1. Don't ever let the pebble battery run out, you'll have to repeat this pairing<br>
 2. Keep bluetooth on your phone turned off, ble connections to the watch while it is also paired to this device via bluetooth cause the app to crash.<br>
    This wasn't a problem a few pebble versions back<br>
